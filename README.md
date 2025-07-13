@@ -2,7 +2,7 @@
 
 A self-hosted, containerized URL shortener built with **Python (Flask)**, integrated with **Splunk for observability**, containerized using **Docker**, orchestrated via **Kubernetes**, and managed through **Helm**.
 
-## 🔧 Features
+## Features
 
 - Shorten URLs using a simple REST API
 - Redirect short URLs to original URLs
@@ -14,7 +14,7 @@ A self-hosted, containerized URL shortener built with **Python (Flask)**, integr
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```bash
 url-shortener-with-splunk/
@@ -32,7 +32,7 @@ url-shortener-with-splunk/
     └── url-shortener-deploy.yaml
 ```
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 Ensure the following are installed:
 
@@ -43,7 +43,7 @@ Ensure the following are installed:
 - Visual Studio Code (optional)  
 - Splunk Enterprise  
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -101,7 +101,7 @@ helm install shortener .
 kubectl apply -f url-shortener-deploy.yaml
 ```
 
-## 🧪 Test the Application
+## Test the Application
 
 ### 1. Shorten a URL
 
@@ -119,7 +119,7 @@ Visit:
 http://url.local:30080/<short_id>
 ```
 
-## 📊 Splunk Integration
+## Splunk Integration
 
 ### 1. Enable HEC (HTTP Event Collector)
 
@@ -159,7 +159,7 @@ Go to Search & Reporting and run:
 index=main sourcetype="url-shortener"
 ```
 
-## ⚠️ Notes
+## Notes
 
 This project is for demonstration purposes.
 
@@ -171,7 +171,7 @@ For production:
 - Add HTTPS support
 - Use authentication & rate-limiting
 
-## 🧑‍💻 Author
+## Author
 
 **Farrukh Ejaz**  
 [GitHub Profile](https://github.com/farrukhdevops)
