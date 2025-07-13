@@ -165,11 +165,6 @@ This project is for demonstration purposes.
 
 - URL mappings are stored in-memory, so they are lost on restart.
 
-For production:
-
-- Add persistent DB (PostgreSQL, Redis)
-- Add HTTPS support
-- Use authentication & rate-limiting
 
 ## Author
 
