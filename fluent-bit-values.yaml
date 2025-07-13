@@ -1,0 +1,8 @@
+output:
+  splunk:
+    hecToken: "REPLACE_WITH_YOUR_SPLUNK_HEC_TOKEN"
+    host: "host.docker.internal"
+    port: 8088
+    tls: false
+    index: "main"
+    source: "kubernetes"

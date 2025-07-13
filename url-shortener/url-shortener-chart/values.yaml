@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: url-shortener
+  pullPolicy: Never
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  port: 80
